@@ -56,8 +56,8 @@ Currently refining my **SaaS portfolio**, solving real-world industry problems w
 
 ## ⚡ Featured Projects  
 
-### 🍔 YummmZo – Food Delivery Platform  
-🔗 https://github.com/sahil-ladhania/YummmZo-Frontend  
+### 🍔 YUMMMZO – Food Delivery App  
+🔗 [yummmzo.com](https://www.yummmzo.com/)
 
 A **full-stack logistics platform** designed for **high concurrency** and **real-time tracking**.
 
@@ -68,8 +68,8 @@ A **full-stack logistics platform** designed for **high concurrency** and **real
 
 ---
 
-### 🎨 Adobe Clone → Digital Asset Management Tool  
-🔗 https://github.com/sahil-ladhania/Adobe-Clone  
+### 🎨 TBK Villas → Multi Tenant Villa Management Software
+🔗 [tbkvillasapp.in](http://tbkvillasapp.online/)
 
 Evolved a frontend clone into a **functional DAM system**.
 
