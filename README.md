@@ -76,17 +76,6 @@ End-to-end property management platform for 50+ villas — bookings, expenses, o
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=sahil-ladhania&show_icons=true&count_private=true&hide_border=true&theme=default" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahil-ladhania&layout=compact&hide_border=true&theme=default" width="40%" />
-
-</div>
-
----
-
 ## Let's Connect
 
 I'm actively looking to join **product-focused startups** as a **remote software engineer**.
