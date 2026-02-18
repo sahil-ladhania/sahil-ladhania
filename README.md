@@ -1,108 +1,104 @@
-## Hey 👋, I'm Sahil Ladhania! 🚀  
+<div align="center">
 
-<a href="https://linkedin.com/in/sahil-ladhania" target="_blank">
-<img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/sahil-ladhania" target="_blank">
-<img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://gitlab.com/sahilladhania5" target="_blank">
-<img src="https://img.shields.io/badge/gitlab-330F63.svg?&style=for-the-badge&logo=gitlab&logoColor=white" />
-</a>
-<a href="https://twitter.com/sahilladhania" target="_blank">
-<img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white" />
-</a>
+# Hey 👋, I'm Sahil Ladhania
+
+**Full-Stack Software Engineer · Backend-First · Remote Ready**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sahil-ladhania)
+[![GitHub](https://img.shields.io/badge/GitHub-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahil-ladhania)
+[![Twitter](https://img.shields.io/badge/Twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sahilladhania)
+
+</div>
 
 ---
 
-## 🚀 About Me  
+## About Me
 
-I'm a **Software Engineer** specializing in building **high-performance, scalable web applications** using **Node.js, React, and SQL**.
+I'm a Full-Stack Engineer who builds production-grade systems — not side projects.
 
-I focus on:
-- Designing **scalable backend architectures**
-- Writing **efficient SQL** with proper indexing and query optimization
-- Building **intuitive, localized user experiences**
-- Treating performance and maintainability as first-class features
+I've shipped real apps handling real users, real orders, and real business logic. My focus is on **backend architecture**, **database performance**, and **writing code that scales**.
 
----
-
-### 🌍 Remote Ready  
-Experienced in **asynchronous collaboration** and building products for **global startups** across **US / UK / UAE** time zones.
-
-### 🛠️ Engineering Mindset  
-I don’t just write code — **I design systems**.  
-Obsessed with:
-- Clean architecture
-- SQL performance tuning
-- Latency reduction
-- Measurable performance benchmarks
-
-### 💡 Building in Public  
-Currently refining my **SaaS portfolio**, solving real-world industry problems while sharing learnings openly.
+- 🏗️ I design systems before writing code
+- ⚡ Obsessed with latency, caching, and clean APIs
+- 🌍 Building for global startups across **US / UK / UAE** time zones
+- 📦 Experienced with async workflows, job queues, and distributed systems
 
 ---
 
-## 🛠️ Technical Arsenal  
+## Tech Stack
 
-| Category | Technologies |
-|-------|-------------|
-| **Frontend** | React.js, TypeScript, Next.js, Tailwind CSS, Redux Toolkit |
-| **Backend** | Node.js, Express.js, RESTful APIs, WebSockets (Socket.io) |
-| **Database** | PostgreSQL, MySQL, SQL Query Optimization, Database Indexing |
-| **DevOps** | Git, Docker, GitHub Actions (CI/CD), Postman |
+| Layer | Technologies |
+|---|---|
+| **Languages** | TypeScript, JavaScript |
+| **Frontend** | React.js, Next.js, Tailwind CSS, Redux Toolkit |
+| **Backend** | Node.js, Express.js, REST APIs |
+| **Database** | MySQL, PostgreSQL, Prisma ORM, Query Optimization, Indexing |
+| **Cache / Queue** | Redis (ioredis), BullMQ |
+| **Auth** | JWT, HTTP-only Cookies, RBAC |
+| **DevOps** | Docker, GitHub Actions, Postman |
+| **Integrations** | Razorpay, OpenAI SDK, WhatsApp Cloud API, Google Sheets API, Nodemailer |
 
 ---
 
-## ⚡ Featured Projects  
+## Featured Projects
 
-### 🍔 YUMMMZO – Food Delivery App  
+### 🍔 YUMMMZO — Food Delivery Platform
 🔗 [yummmzo.com](https://www.yummmzo.com/)
 
-A **full-stack logistics platform** designed for **high concurrency** and **real-time tracking**.
+Production food delivery backend powering the full order lifecycle — from auth and restaurant discovery to cart, payments, and order tracking.
 
-**Highlights:**
-- **SQL Power**: Designed complex relational schemas for multi-vendor management and order-history auditing  
-- **Real-time Systems**: WebSockets for live order updates & driver tracking  
-- **UAE Localization**: RTL (Right-to-Left) UI support for Arabic-speaking markets  
+**Built with:** `Node.js` `Express.js` `TypeScript` `MySQL` `Prisma` `Redis` `BullMQ` `Razorpay` `OpenAI`
 
----
-
-### 🎨 TBK Villas → Multi Tenant Villa Management Software
-🔗 [tbkvillasapp.in](http://tbkvillasapp.online/)
-
-Evolved a frontend clone into a **functional DAM system**.
-
-**Highlights:**
-- **Architecture**: File-processing pipeline using Node.js streams + SQL metadata storage  
-- **Security**: Role-Based Access Control (RBAC) for team-based permissions  
+| What | How |
+|---|---|
+| **Auth** | JWT in HTTP-only cookies · Email verification · Redis token blacklist |
+| **Payments** | Razorpay integration with order + payment record sync |
+| **Background Jobs** | BullMQ workers for async email delivery (verify, welcome, order confirm, cancel) with retry + exponential backoff |
+| **Caching** | Redis for session management and token invalidation |
+| **API Design** | RESTful with Zod validation, structured error handling, and role-based middleware |
 
 ---
 
-## 📊 GitHub Insights  
+### 🏡 TBK Villa — Multi-Tenant Villa Management System
+🔗 [tbkvillasapp.online](http://tbkvillasapp.online/)
 
-<table>
-<tr>
-<td width="50%">
-<img src="https://github-readme-stats.vercel.app/api?username=sahil-ladhania&show_icons=true&count_private=true&hide_border=true" />
-</td>
-<td width="50%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahil-ladhania&layout=compact&hide_border=true" />
-</td>
-</tr>
-</table>
+End-to-end property management platform for 50+ villas — bookings, expenses, owner portals, and automated communications.
+
+**Built with:** `Node.js` `Express.js` `TypeScript` `MySQL` `Prisma` `Puppeteer` `WhatsApp Cloud API` `Google Sheets API`
+
+| What | How |
+|---|---|
+| **Multi-Tenancy** | Owner portal with isolated analytics, villa assignments, and revenue tracking |
+| **RBAC** | Role-based access (Admin / Manager / Staff) with granular permissions |
+| **Automations** | Booking vouchers via WhatsApp + Email · PDF generation with Puppeteer |
+| **Integrations** | Real-time sync to Google Sheets via Apps Script webhooks |
+| **Finance** | Dashboard KPIs, revenue trends, expense tracking (individual + split), PDF reports |
 
 ---
 
-## 📫 Let's Connect  
+## GitHub Stats
 
-I’m looking to join **mission-driven startups** as a **remote software engineer**.  
-If you value **clean code, scalable systems, and performance-first thinking** — let’s talk.
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=sahil-ladhania&show_icons=true&count_private=true&hide_border=true&theme=default" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahil-ladhania&layout=compact&hide_border=true&theme=default" width="40%" />
+
+</div>
+
+---
+
+## Let's Connect
+
+I'm actively looking to join **product-focused startups** as a **remote software engineer**.
+
+If you value clean APIs, solid backend architecture, and engineers who think about systems — let's talk.
+
+📩 [sahilladhania5@gmail.com](mailto:sahilladhania5@gmail.com)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=sahil-ladhania&style=flat-square)
 
 ---
 
 <div align="center">
-Built with ❤️ | Designed for impact
+Built with ❤️ · Designed for impact
 </div>
