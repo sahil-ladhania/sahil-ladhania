@@ -36,7 +36,7 @@ I've shipped real apps handling real users, real orders, and real business logic
 | **Cache / Queue** | Redis (ioredis), BullMQ |
 | **Auth** | JWT, HTTP-only Cookies, RBAC |
 | **DevOps** | Docker, GitHub Actions, Postman |
-| **Integrations** | Razorpay, OpenAI SDK, WhatsApp Cloud API, Google Sheets API, Nodemailer |
+| **Integrations** | OpenAI SDK, WhatsApp Cloud API, Google Sheets API, Nodemailer |
 
 ---
 
