@@ -46,7 +46,7 @@ I've shipped real apps handling real users, real orders, and real business logic
 ## Featured Projects
 
 ### 🤖 Reachly — Cold Outreach Agent
-🔗 [Live Link](#) | [Source Code](#)
+🔗 [reachly.fun](http://reachly.fun/)
 
 Production AI-powered GTM platform — a 7-agent system that automates company research, contact enrichment, and hyper-personalized email generation end-to-end.
 
