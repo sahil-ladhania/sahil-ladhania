@@ -2,7 +2,7 @@
 
 # Hey 👋, I'm Sahil Ladhania
 
-**Full-Stack Software Engineer · Backend-First · Remote Ready**
+**Full-Stack AI Engineer · Remote Ready**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sahil-ladhania)
 [![GitHub](https://img.shields.io/badge/GitHub-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahil-ladhania)
@@ -14,13 +14,13 @@
 
 ## About Me
 
-I'm a Full-Stack Engineer who builds production-grade systems — not side projects.
+I'm a Full-Stack AI Engineer who builds production-grade systems — not side projects.
 
-I've shipped real apps handling real users, real orders, and real business logic. My focus is on **backend architecture**, **database performance**, and **writing code that scales**.
+I've shipped real apps handling real users, real orders, and real business logic. My focus is on **backend architecture**, **AI agents and agentic workflows**, **database performance**, and **writing code that scales**.
 
 - 🏗️ I design systems before writing code
 - ⚡ Obsessed with latency, caching, and clean APIs
-- 🌍 Building for global startups across **US / UK / UAE** time zones
+- 🌍 Building for global startups across **US / UK / UAE / Europe** time zones
 - 📦 Experienced with async workflows, job queues, and distributed systems
 
 ---
@@ -29,33 +29,34 @@ I've shipped real apps handling real users, real orders, and real business logic
 
 | Layer | Technologies |
 |---|---|
-| **Languages** | TypeScript, JavaScript |
-| **Frontend** | React.js, Next.js, Tailwind CSS, Redux Toolkit |
-| **Backend** | Node.js, Express.js, REST APIs |
-| **Database** | MySQL, PostgreSQL, Prisma ORM, Query Optimization, Indexing |
-| **Cache / Queue** | Redis (ioredis), BullMQ |
+| **Languages** | TypeScript, JavaScript, Python, SQL |
+| **Frontend** | React.js, Next.js, Tailwind CSS, shadCN, Redux Toolkit |
+| **Backend** | Node.js, Express.js, REST APIs, WebSocket |
+| **AI / Agents** | LangChain, LangGraph, LangSmith, OpenAI API, Vercel AI SDK, Tavily API, pgVector (Postgres RAG) |
+| **Automation** | Trigger.dev, n8n |
+| **Database** | MySQL, PostgreSQL, Prisma ORM, pgVector, Query Optimization, Indexing |
+| **Cache / Queue** | Redis, BullMQ |
 | **Auth** | JWT, HTTP-only Cookies, RBAC |
-| **DevOps** | Docker, GitHub Actions, Postman |
-| **Integrations** | OpenAI SDK, WhatsApp Cloud API, Google Sheets API, Nodemailer |
+| **DevOps** | Docker, AWS (IAM, EC2, RDS, S3, Security Groups), GitHub Actions |
+| **Observability** | LangSmith, Sentry |
+| **Integrations** | WhatsApp Cloud API, Gmail API, Google Sheets API, Nodemailer |
 
 ---
 
 ## Featured Projects
 
-### 🍔 YUMMMZO — Food Delivery Platform
-🔗 [yummmzo.com](https://www.yummmzo.com/)
+### 🤖 Reachly — Cold Outreach Agent
+🔗 [Live Link](#) | [Source Code](#)
 
-Production food delivery backend powering the full order lifecycle — from auth and restaurant discovery to cart, payments, and order tracking.
+Production AI-powered GTM platform — a 7-agent system that automates company research, contact enrichment, and hyper-personalized email generation end-to-end.
 
-**Built with:** `Node.js` `Express.js` `TypeScript` `MySQL` `Prisma` `Redis` `BullMQ` `Razorpay` `OpenAI`
+**Built with:** `Next.js` `Express.js` `TypeScript` `PostgreSQL` `Prisma` `pgVector` `Redis` `BullMQ` `LangGraph` `LangSmith` `OpenAI` `AWS`
 
 | What | How |
 |---|---|
-| **Auth** | JWT in HTTP-only cookies · Email verification · Redis token blacklist |
-| **Payments** | Razorpay integration with order + payment record sync |
-| **Background Jobs** | BullMQ workers for async email delivery (verify, welcome, order confirm, cancel) with retry + exponential backoff |
-| **Caching** | Redis for session management and token invalidation |
-| **API Design** | RESTful with Zod validation, structured error handling, and role-based middleware |
+| **Agentic GTM Pipeline** | 7-agent LangGraph + GPT-4o system automating company research, contact enrichment, and personalized email generation — per-lead research time from 20 minutes to under 30 seconds |
+| **Production Infrastructure** | TurboRepo monorepo (Next.js, Express 5, Prisma, PostgreSQL, pgvector) with Redis caching, BullMQ workers, LLM cost tracking, and full observability via LangSmith + Sentry, deployed on AWS |
+| **Human-in-the-Loop Engine** | Multi-mode campaign entry, automated follow-up scheduling, reply classification, and thread-level conversion tracking with hard send caps and approval gates |
 
 ---
 
