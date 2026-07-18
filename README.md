@@ -1,6 +1,6 @@
 # Sahil Ladhania
 
-AI Engineer · Founder, [Zyntohouse](https://www.zyntohouse.com/)
+AI Engineer · Founder @ [Zyntohouse](https://www.zyntohouse.com/)
 
 [Portfolio](https://www.sahilladhania.com/) · [GitHub](https://github.com/sahil-ladhania) · [LinkedIn](https://linkedin.com/in/sahil-ladhania) · sahilladhania5@gmail.com
 
